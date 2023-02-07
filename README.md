@@ -1,0 +1,4 @@
+# AI-final-exam
+This is a basic AI showcase (though there is room for improvement in simulation performance - in smaller simulation size blocks, a section that otherwise took too long to compute was working correctly.)
+This file is in an assignment format as a Jupyter notebook, taken from class to demonstrate an understanding of the concepts of reinforcement learning. In this file I address markov decision processes, policy iteration, and Q-Learning agents. This assignment uses a "drone" in a statespace and rewards a specific landing position, while applying negative weights to all non-landing positions (and a greater negative weight if landing where not intended). 
+The drone comes up with a policy for every position in a 3D statespace with training, and eventually comes up with optimal policies to move toward the landing pad as quickly as possible. 
